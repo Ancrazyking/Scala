@@ -9,16 +9,10 @@ public class Demo
         /**
          * 字符串常量池
          */
-        String s1="hello";
-        String s2="hello";
-       //s1="hello,World!";
-
-
-        System.out.println(s1==s2);
-
+        int  a=1,b=2,c=3;
+        System.out.println(a<b?(a<c?a:c):(b<c?b:c));
 
 
 
     }
-
 }
